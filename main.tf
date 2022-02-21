@@ -18,7 +18,7 @@ provider "aws" {      // configures specificied provider
 resource "aws_instance" "app_server" { // component of the infrastucture: resource <type> <name>
   // creates a unique id for the resource -> aws_instance.app_server
   // arguments to configure the resource
-  ami           = "ami-0001321d" // ubuntu image
+  ami           = "ami-0000a24e0b08ea7c4" // ubuntu image
   instance_type = "t2.micro"     // aws free tier
 
   tags = {
